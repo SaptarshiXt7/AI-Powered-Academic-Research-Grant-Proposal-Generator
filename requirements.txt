@@ -1,0 +1,7 @@
+crewai[litellm]
+crewai-tools
+streamlit
+scikit-learn
+arxiv
+python-dotenv
+ollama

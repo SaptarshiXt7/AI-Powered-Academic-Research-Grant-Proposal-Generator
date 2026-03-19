@@ -1,0 +1,58 @@
+Title: Multimodal Sentiment Analysis Using Deep Learning
+
+Abstract:
+Multimodal sentiment analysis combines information from text, audio, and visual data to improve emotion and sentiment detection. Recent deep learning approaches utilize convolutional neural networks and recurrent neural networks to capture cross-modal relationships. However, challenges remain in effectively fusing modalities and handling missing or noisy data across different channels.
+
+
+Title: Speech Emotion Recognition with Transformer Architectures
+
+Abstract:
+Speech emotion recognition aims to identify emotional states from spoken language using machine learning techniques. Transformer-based architectures have recently demonstrated improved performance compared to traditional recurrent neural networks. This study evaluates transformer models on benchmark datasets such as IEMOCAP and MELD, highlighting their ability to capture long-range contextual dependencies in speech signals.
+
+
+Title: Artificial Intelligence for Early Cancer Detection
+
+Abstract:
+Artificial intelligence has shown significant promise in medical diagnosis, particularly in early cancer detection. Deep learning models trained on medical imaging datasets can identify patterns that may not be visible to human clinicians. Despite promising results, challenges such as limited labeled datasets, model interpretability, and clinical validation remain significant barriers to widespread adoption.
+
+
+Title: AI-Based Crop Disease Detection Using Computer Vision
+
+Abstract:
+Crop disease detection using computer vision techniques has emerged as an effective solution for improving agricultural productivity. Convolutional neural networks can classify plant diseases based on leaf images with high accuracy. This work reviews existing deep learning approaches for plant disease detection and discusses limitations such as dataset imbalance and environmental variability.
+
+
+Title: Machine Learning for Climate Change Prediction
+
+Abstract:
+Machine learning techniques are increasingly used to model and predict climate change patterns. By analyzing large-scale environmental datasets, neural networks can identify complex relationships between atmospheric variables. However, challenges remain in integrating domain knowledge from climate science into machine learning models to improve prediction reliability.
+
+
+Title: Deep Learning Approaches for Medical Image Analysis
+
+Abstract:
+Deep learning has transformed medical image analysis by enabling automated detection and classification of diseases from imaging data. Convolutional neural networks and hybrid architectures have demonstrated strong performance in tasks such as tumor detection and organ segmentation. Future research focuses on improving model explainability and robustness across different healthcare datasets.
+
+
+Title: Natural Language Processing for Academic Research Assistance
+
+Abstract:
+Natural language processing techniques have been applied to assist researchers in literature review and knowledge discovery. Large language models can summarize research papers, extract key insights, and identify emerging trends across scientific publications. However, challenges remain in ensuring factual accuracy and avoiding hallucinated information in generated summaries.
+
+
+Title: Retrieval-Augmented Generation for Knowledge-Intensive Tasks
+
+Abstract:
+Retrieval-augmented generation combines information retrieval with generative language models to improve the factual accuracy of AI-generated content. By retrieving relevant documents from external knowledge sources, language models can ground their responses in real-world information. This approach has been widely used in question answering systems and research assistants.
+
+
+Title: Explainable Artificial Intelligence in Decision-Making Systems
+
+Abstract:
+Explainable artificial intelligence focuses on developing models whose decisions can be interpreted by humans. In high-stakes domains such as healthcare and finance, transparency and trust are essential for AI adoption. Methods such as attention visualization, feature attribution, and interpretable model architectures are commonly used to improve explainability.
+
+
+Title: Grant Proposal Writing with AI Assistance
+
+Abstract:
+Artificial intelligence tools are increasingly being used to assist researchers in drafting grant proposals. By analyzing previous successful proposals and research trends, AI systems can help generate structured proposals including objectives, methodology, expected outcomes, and potential societal impact. However, human oversight remains essential to ensure originality and feasibility.
