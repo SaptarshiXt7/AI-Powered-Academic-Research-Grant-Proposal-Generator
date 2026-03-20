@@ -1,9 +1,12 @@
 from sklearn.feature_extraction.text import TfidfVectorizer  #for vectorization(converting text to numbers)
 import numpy as np  #for numerical operations
 
-def build_vector_db(papers):  #function to build the vector database(for storing the paper list)
+#AI WORKS WELL IN NUMBERS, NOT IN WORDS SO WE NEED TO CONVERT THE TEXT DATA INTO NUMBERS
 
-    vectorizer = TfidfVectorizer(stop_words="english")  #object vectorizer to convert text to numbers
+
+def build_vector_db(papers):  #WEEK ON DEEP SEMNTIC SIMILARTY
+
+    vectorizer = TfidfVectorizer(stop_words="english")  #USE FILTER FOR REMOVING COMMON WORDS
 
     X = vectorizer.fit_transform(papers)  #[X -->  SPARSH MATRIX] (fit-> learn vocab, transform-> convert to numbers)
 
@@ -18,9 +21,11 @@ def build_vector_db(papers):  #function to build the vector database(for storing
 
 def retrieve_docs(db, query):  #function to retrieve the documents(based on user query)
 
-    vectorizer = db["vectorizer"]  #vectorizer to convert text to numbers (query)
-    matrix = db["matrix"]  #sparse matrix
-    papers = db["papers"]  #list of papers
+                #USER QUERY --> VECTORIZATION
+
+    vectorizer = db["vectorizer"]  
+    matrix = db["matrix"]  
+    papers = db["papers"]  
 
     query_vec = vectorizer.transform([query])  #query-->numbers
 
@@ -28,7 +33,7 @@ def retrieve_docs(db, query):  #function to retrieve the documents(based on user
 
     top_indices = np.argsort(scores[:,0])[-3:]  #top 3 indices
 
-    results = [papers[i] for i in top_indices]  #top 3 papers
+    results = [papers[i] for i in top_indices]  #top 3 papers SELECTED
 
     context = "\n".join(results)  #join the top 3 papers
 
